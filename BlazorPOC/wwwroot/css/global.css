@@ -1,0 +1,36 @@
+﻿:root {
+    --main-bg-color: #5818AE;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+
+.primary-color { 
+    background-color: var(--main-bg-color) !important;
+}
+
+.netrin-logo {
+    background: url("../assets/images/logo-white.svg") no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100px;
+    height: 100%;
+}
+.mud-typography-body1, .mud-button-label {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.painel-sheet {
+
+    text-align: center;
+    background-color: #2ea964;
+    color: #fff;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

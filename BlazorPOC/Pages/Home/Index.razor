@@ -1,0 +1,26 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<MudCard Outlined="true" Class="mt-5">
+    <MudCardContent>
+        <MudText>Prova de conceito</MudText>
+        <MudText Typo="Typo.body2">Todo o código encontrado aqui é apenas uma demonstração da possibilidade de validação de uma ideia (ou conceito) utilizando Blazor, NET6 e a biblioteca Mudblazor</MudText>
+    </MudCardContent>
+    <MudCardActions>
+        <MudLink Href="https://pt.wikipedia.org/wiki/Prova_de_conceito" Style="margin-left: 10px;margin-bottom: 10px;">Saber mais</MudLink>
+    </MudCardActions>
+</MudCard>
+
+@code {
+    MudTheme MyCustomTheme = new MudTheme()
+        {
+            Typography = new Typography()
+            {
+                Default = new Default()
+                {
+                    FontFamily = new[] { "Poppins" }
+                }
+            }
+        };
+}
